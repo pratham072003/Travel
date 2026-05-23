@@ -10,7 +10,7 @@ const api = axios.create({
 })
 
 export const tourAPI = {
-  getAll: (skip = 0, limit = 10) => api.get(`/tours?skip=${skip}&limit=${limit}`),
+  getAll: (skip = 0, limit = 10) => api.get(`/tours/?skip=${skip}&limit=${limit}`),
   getById: (id: number) => api.get(`/tours/${id}`),
   getByDestination: (destination: string) => api.get(`/tours/destination/${destination}`),
   create: (data: any) => api.post('/tours', data),
