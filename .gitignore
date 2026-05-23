@@ -28,7 +28,6 @@ wheels/
 # FastAPI
 .env
 .env.local
-*.db
 *.sqlite
 *.sqlite3
 
