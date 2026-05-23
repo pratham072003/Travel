@@ -16,19 +16,21 @@ class WhatsAppRequest(BaseModel):
     user_phone: str
     message: str | None = None
 
-WELCOME_MESSAGE = """Welcome to Travel Hub! 🚗✨
+WELCOME_MESSAGE = """🦅 Welcome to Eagle Tour and Travel! 🚗✨
 
-Thank you for choosing us for your travel needs. My name is Gaurav, and I’m here to make your journey comfortable, safe, and hassle-free.
+Thank you for contacting us. We provide comfortable cars and travellers for family trips, vacations, outstation travel, weddings, and group tours.
 
-At Travel Hub, we provide reliable and well-maintained car services for all your travel requirements, including local trips, outstation travel, airport transfers, family tours, business travel, and customized travel packages. Our focus is on punctuality, comfort, and excellent customer service to ensure you have a smooth travel experience.
+Planning a trip? Just share:
+📍 Pickup Location & Destination
+📅 Travel Date
+👨‍👩‍👧‍👦 Number of Passengers
 
-For any bookings, inquiries, or assistance, feel free to contact me anytime at 9811867707.
+We’ll help you find the best vehicle at the best price for a safe and comfortable journey 😊
 
-Looking forward to serving you and making your journey memorable!
+📞 Call/WhatsApp: +91 8368253267
+📧 Email: gauravsharma4116@gmail.com
 
-Gaurav
-Travel Hub
-📞 9811867707"""
+🦅 Eagle Tour and Travel, Comfortable Journeys, Happy Memories!"""
 
 @router.post("/send")
 def send_whatsapp(payload: WhatsAppRequest):

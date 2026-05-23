@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">✈️ TravelHub</h3>
+            <h3 className="text-2xl font-bold mb-4">✈️ Eagle Tour and Travel</h3>
             <p className="text-gray-400">Your gateway to amazing travel experiences.</p>
           </div>
 
@@ -47,7 +47,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8">
           <p className="text-center text-gray-400">
-            &copy; 2024 TravelHub. All rights reserved.
+            &copy; 2024 Eagle Tour and Travel. All rights reserved.
           </p>
         </div>
       </div>

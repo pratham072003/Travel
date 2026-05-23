@@ -14,12 +14,12 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-white shadow-sm">
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav className="w-full px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
           <div className="flex-shrink-0">
             <a href="/" className="text-2xl font-bold text-blue-600">
-              ✈️ TravelHub
+              ✈️ Eagle Tour and Travel
             </a>
           </div>
 
@@ -71,7 +71,7 @@ export default function Header() {
         <div className="fixed inset-0 z-50 flex items-center justify-center">
           <div className="absolute inset-0 bg-black opacity-50" onClick={() => setShowModal(false)} />
           <div className="bg-white rounded-lg shadow-xl z-10 max-w-md w-full p-6">
-            <h3 className="text-lg font-semibold mb-2">Chat with TravelHub</h3>
+            <h3 className="text-lg font-semibold mb-2">Chat with Eagle Tour and Travel</h3>
             <p className="text-sm text-gray-600 mb-4">Enter your WhatsApp number and we will message you from our number.</p>
             <input
               type="tel"
