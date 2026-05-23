@@ -23,11 +23,6 @@
     "isolatedModules": true,
     "incremental": true,
     "noEmit": true,
-    "types": [
-      "node",
-      "jest",
-      "@testing-library/jest-dom"
-    ],
     "allowJs": true,
     "plugins": [
       {
